@@ -7,7 +7,7 @@ body {
 .header {
   height: 72px;
   background: darkmagenta;
-  color: white;
+  color: #ffffff;
 }
 
 .footer {
@@ -26,4 +26,67 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+/* MY WORK */
+.content { 
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 32px;
+  padding: 0 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: ;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding-bottom: 16px;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  padding: 16px;
+  display: flex;
+
+}
+
+a {
+  color: #eee;
+  text-decoration: none;
+}
+
+
+.container {
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card {
+  width: 300px;
+  padding:16px;
 }

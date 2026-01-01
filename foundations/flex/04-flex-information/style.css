@@ -24,3 +24,22 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* MY WORK */
+
+.title {
+  margin: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.general {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.some {
+  width: 200px;
+  text-align: center;
+}
